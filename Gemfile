@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'capistrano'
 gem 'rvm-capistrano'
 
+gem 'therubyracer'
+
 group :production do
   gem 'unicorn'
   gem 'pg'
