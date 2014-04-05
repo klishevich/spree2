@@ -31,10 +31,10 @@ gem 'capistrano'
 gem 'rvm-capistrano'
 
 gem 'therubyracer'
+gem 'pg'
 
 group :production do
   gem 'unicorn'
-  gem 'pg'
 end
 
 group :doc do
